@@ -94,11 +94,6 @@ export default function currentWeather({weatherData}) {
                 <span>{moment(getSunrise * 1000).format('HH:mm')}</span>
               </div>
 
-              <div class="px-3 d-flex justify-content-center align-items-center">
-                <img src={droplet} alt="" />
-                <span>{weatherData.main.humidity}%</span>
-              </div>
-
 
               <div class="px-3 d-flex justify-content-center align-items-center">
                 <img src={droplet} alt="" />
