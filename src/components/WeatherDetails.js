@@ -49,7 +49,7 @@ export const WeatherDetails = (props) => {
   
   if(feels_like === current_temp) {
     feels_like_description = 'Similar to the actual temperature.';
-  } elseif(feels_like > current_temp) {
+  } else if(feels_like > current_temp) {
     feels_like_description = 'Humidity is making it feel warmer.';
   } else {
     feels_like_description = 'Wind is making it feel colder.';
